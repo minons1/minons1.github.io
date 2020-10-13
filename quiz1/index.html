@@ -3,49 +3,99 @@
     <head>
         <!-- Using Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
+        <!-- CSS -->
         <link rel="stylesheet" href="style.css">
+
+        <!-- JS -->
+        <script src="script.js"></script>
+
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/aec7d4e4dc.js"></script>
 
         <title>Dashboard</title>
     </head>
     <body>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top flex-column">
-        <div class="d-flex">
-          <a class="navbar-brand mx-ms-auto" href="#">Sal Gallery</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://minons1.github.io/quiz1/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://minons1.github.io/quiz1/profile/">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://minons1.github.io/quiz1/hometown">Hometown</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://minons1.github.io/quiz1/food">Food</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://minons1.github.io/quiz1/tourist">Tourist</a>
-            </li>
-          </ul>
-        </div>
-        
-      </nav>
+      <div id="nav-placeholder"></div>
 
       <!-- Jumbotron -->
       <div class="card card-image">
           <h2 class="mx-auto my-auto text-white">WELCOME!</h2>
       </div>
 
+      <div class="container-fluid welcome-section">
+        <div class="row h-100 py-5 align-items-center ">
+          <div class="col-2"></div>
+          <div class="col-4 text-center mx-auto text-black">
+            <h2>Salim Bin Usman</h2>
+            <p>-Natural learner est 2018</p>
+          </div>
+          <div class="col-4 mx-auto text-center">
+            <img src="img/fotome.jpg" >
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+
+      <div class="container menu-section">
+        <div class="row py-5 align-items-center ">
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="https://fakeimg.pl/350x200/?text=Hello" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/profile/index.html" class="btn btn-primary">Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="https://fakeimg.pl/350x200/?text=Hello" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/profile/index.html" class="btn btn-primary">Food</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="https://fakeimg.pl/350x200/?text=Hello" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/profile/index.html" class="btn btn-primary">Hometown</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="https://fakeimg.pl/350x200/?text=Hello" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/profile/index.html" class="btn btn-primary">Tourist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container social-proof">
+        <div class="row py-5 align-items-center">
+          <i class="fa fa-quote-left fa-1x fa-pull-left fa-border" aria-hidden="true"></i>
+          ...tomorrow we will run faster, stretch out our arms farther...
+          And then one fine morning&mdash; So we beat on, boats against the
+          current, borne back ceaselessly into the past.
+        </div>
+      </div>
+
+      <div id="footer-placeholder"></div>
+      
     </body>
 </html>
