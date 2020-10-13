@@ -1,0 +1,27 @@
+#banner{
+    background-image: url(img/Jumbotron.jpg);
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.welcome-section{
+    background-color: rgba(255, 218, 185, 0.2);
+}
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}
