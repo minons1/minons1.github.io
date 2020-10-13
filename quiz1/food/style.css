@@ -1,15 +1,17 @@
 #banner{
-    background-image: url(img/Jumbotron.jpg);
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/FOOD\ \(2\).jpg);
     background-size: cover;
     height: 100vh;
     border-radius: 0;
 }
+
 .navbar {
     margin-bottom: 0px;
-}
-
-.welcome-section{
-    background-color: rgba(255, 218, 185, 0.2);
 }
 
 .contact-me{
