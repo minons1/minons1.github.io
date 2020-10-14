@@ -5,7 +5,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(img/Transcendence.webp);
-    background-size: cover;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
     height: 100vh;
     border-radius: 0;
 }
