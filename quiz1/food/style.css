@@ -5,9 +5,9 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../img/Bukber.webp);
-    background-size: contain, cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
     border-radius: 0;
 }
 
