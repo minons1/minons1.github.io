@@ -11,6 +11,10 @@
     border-radius: 0;
 }
 
+body{
+    font-family: 'Roboto Mono';
+}
+
 .navbar {
     margin-bottom: 0px;
 }

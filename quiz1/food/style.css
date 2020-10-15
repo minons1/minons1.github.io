@@ -11,6 +11,15 @@
     border-radius: 0;
 }
 
+body{
+    font-family: 'Roboto Mono';
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.img-food{
+    width: 500;
+}
+
 .navbar {
     margin-bottom: 0px;
 }

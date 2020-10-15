@@ -11,13 +11,16 @@
     border-radius: 0;
 }
 
+body{
+    font-family: 'Roboto Mono';
+}
+
 .navbar {
     margin-bottom: 0px;
 }
 
 .intro-section{
     background-color: rgba(8, 8, 8, 0.918);
-    font-family: 'Roboto Mono';
 }
 
 .custom-button{
@@ -38,7 +41,6 @@
 
 .about-me{
     background-color: rgba(8, 8, 8, 0.918);
-    font-family: 'Roboto Mono';
 }
 
 .button-skill{
