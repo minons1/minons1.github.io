@@ -13,6 +13,11 @@
 
 body{
     font-family: 'Roboto Mono';
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.img-default{
+    width: 500px;
 }
 
 .navbar {

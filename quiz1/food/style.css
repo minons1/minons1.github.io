@@ -20,6 +20,15 @@ body{
     width: 500;
 }
 
+.card-food{
+    width: 350;
+    height: 200;
+}
+
+.custom-card{
+    border: none;
+}
+
 .navbar {
     margin-bottom: 0px;
 }
