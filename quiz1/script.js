@@ -5,4 +5,3 @@ $(document).ready(() => {
 $(document).ready(() => {
     $('#footer-placeholder').load('footer.html');
 });
-
